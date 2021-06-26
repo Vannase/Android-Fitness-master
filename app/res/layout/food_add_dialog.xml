@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content" 
+    android:minWidth="200dp"  
+    android:orientation="vertical"  
+    android:padding="10dp"  
+    android:paddingBottom="20dp"  
+    android:paddingTop="30dp">      
+    
+    <EditText   
+        android:id="@+id/addfood_name"   
+        android:layout_width="fill_parent"   
+        android:layout_height="wrap_content"
+        android:textColor="#727e88"
+        android:hint="食物名"   
+        android:maxHeight="50dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp" />      
+        
+    <EditText
+		 android:id="@+id/addfood_protein"
+		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:textColor="#727e88"
+		 android:hint="蛋白质(克)"
+		 android:textSize="18sp"
+		 android:digits="1234567890."
+		 android:layout_marginTop="10dp"
+		 android:singleLine="true"
+		 />
+    
+    <EditText
+		 android:id="@+id/addfood_fat"
+		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:textColor="#727e88"
+		 android:hint="脂肪(克)"
+		 android:textSize="18sp"
+		 android:digits="1234567890."
+		 android:layout_marginTop="10dp"
+		 android:singleLine="true"
+		 />
+    
+    <EditText
+		 android:id="@+id/addfood_carbohydrate"
+		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:textColor="#727e88"
+		 android:hint="碳水化合物(克)"
+		 android:textSize="18sp"
+		 android:digits="1234567890."
+		 android:layout_marginTop="10dp"
+		 android:singleLine="true"
+		 />
+    
+    <Button   
+        android:id="@+id/addfood_save"
+        android:background="@drawable/button"
+		android:textColor="#fff"
+        android:layout_width="fill_parent"   
+        android:layout_height="wrap_content"   
+        android:layout_marginTop="15dp"   
+        android:text="添加至食物库" />     
+        
+</LinearLayout> 
+

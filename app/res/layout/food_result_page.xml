@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical">
+	    
+        <TextView 
+	        android:id="@+id/nutrientResult"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="3"
+			android:textColor="#727e88"
+			android:gravity="center"
+			android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+			/>
+        
+	    <ListView
+	        android:id="@+id/nutrientList"
+	        android:layout_width="match_parent"
+	     	android:layout_height="match_parent"
+	     	android:layout_weight="1"
+	     	android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        android:layout_marginBottom="5dp"
+	     	/>
+	    
+	    <Button
+	        android:id="@+id/adddietBtn"
+	        android:background="@drawable/button"
+	    	android:textColor="#fff"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="3"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        android:visibility="invisible"
+	        android:text="添加到饮食" 
+	        />
+	</LinearLayout>
